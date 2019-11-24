@@ -9,4 +9,4 @@ module.exports = (robot) ->
    room = req.params.room
    message = req.body.message
    robot.messageRoom room, message
-   res.end()
+   res.end("Thanks for the note")
