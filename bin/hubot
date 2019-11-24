@@ -7,4 +7,4 @@ export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
 exec node_modules/.bin/hubot --name "charlie" "$@"
 
-export PORT=8080
+export EXPRESS_PORT=80
